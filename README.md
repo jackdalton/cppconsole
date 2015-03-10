@@ -1,2 +1,2 @@
 # jconsole
-My own little faux terminal written in C++
+My own little faux terminal written in C++, for Linux.
