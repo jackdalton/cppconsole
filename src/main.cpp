@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <cstdlib>
 #include <cstdio>
-std::string version = "0.1.5";
+#define version "0.1.6"
 bool scrub = false;
 #include "sysloop.h"
 
