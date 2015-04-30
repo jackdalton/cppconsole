@@ -11,7 +11,7 @@ using namespace std;
 
 void secureLoop(string op);
 void cls();
-int main() {
-    system("clear");
-    sys("initial");
+int main() { // called when program is run
+    system("clear"); // clears the screen
+    sys("initial"); // runs the initialization for the main operation.
 }
