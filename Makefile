@@ -1,2 +1,2 @@
 all:
-	g++ src/*.cpp src/*.h -o jconsole
+	g++ src/sysloop.h src/main.cpp -o jconsole
