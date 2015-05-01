@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <cstdio>
 #include <string>
+#define version "0.1.6"
+bool scrub = false;
  // required libraries and headers
 using namespace std; // sets the std namespace
 
@@ -34,13 +36,8 @@ void sys(string op) { // main terminal loop
         /*
             Below checks for whether or not scrubbing is enabled, and displays the appropriate help message.
         */
-        if (scrub) {
-            cout << "sysvar scrub 'true/false': Sets status of input scrubbing. Currently set to true." << endl;
-        }
-        else if (!scrub) {
-            cout << "sysvar scrub 'true/false': Sets status of input scrubbing. Currently set to false." << endl;
-        }
-        cout << "exit: Exits the program" << endl;
+        cout << "sysvar scrub 'true/false': Sets status of input scrubbing. Currently set to " <<  boolalpha << scrub << "." << endl;
+        cout << "exit: exits the program" << endl;
         // ... The list of commands ends.
         sys("main"); // runs main operation
     }
