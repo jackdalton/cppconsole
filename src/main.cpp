@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <cstdlib>
 #include <cstdio>
-#define version "0.1.6"
-bool scrub = false;
 #include "sysloop.h"
 
 using namespace std;
