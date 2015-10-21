@@ -24,7 +24,7 @@ void sys(string op) { // main terminal loop
         sys(input); // execute the user's command
     }
     else if (op == "initial") { // if loading this for the first time...
-        cout << "JConsole v" << version << ".\nCreated by Jack Dalton.\nWritten in C++.\nType 'help' for a list of commands." << endl; // ... then output some stuff about it
+        cout << "cppConsole v" << version << ".\nCreated by Jack Dalton.\nWritten in C++.\nType 'help' for a list of commands." << endl; // ... then output some stuff about it
         sys("main"); // runs the main operation
     }
     else if (op == "help") { // if the user needs some help...
