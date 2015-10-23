@@ -28,7 +28,7 @@ void sys(string op) { // main terminal loop
         sys("main"); // runs the main operation
     }
     else if (op == "help") { // if the user needs some help...
-        cout << "JConsole v" << version << ".\nCreated by Jack Dalton." << endl; // output some information
+        cout << "cppConsole v" << version << ".\nCreated by Jack Dalton." << endl; // output some information
         cout << "Commands:" << endl << endl; // begins a list of everything the user needs to know.
         cout << "help: Displays this menu" << endl;
         cout << "clear: Clears the console screen" << endl;
